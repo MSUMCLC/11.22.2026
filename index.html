@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    .container {
+        max-width: 800px;
+        margin: auto;
+        color: #000;
+        padding: 0 12px;
+    }
+
+    .svg-wrapper {
+        text-align: center;
+        margin: -6px 0 6px 0;
+    }
+
+    .svg-wrapper img {
+        display: inline-block;
+    }
+
+    .last-page-footer {
+        font-family: Verdana, sans-serif;
+        font-size: 9pt;
+        color: #283776;
+        text-align: center;
+        margin-top: 50px;
+        line-height: 1.4;
+    }
+
+    /* Superscript bold verse numbers (kept for future use, unused now) */
+    .verse-num {
+        font-weight: bold;
+        font-size: 0.65em;
+        vertical-align: super;
+        line-height: 0;
+    }
+
+    /* Print button styling */
+    .print-btn {
+        font-size: 10pt;
+        padding: 4px 10px;
+        border: 1px solid #283776;
+        background: #fff;
+        color: #283776;
+        border-radius: 4px;
+        cursor: pointer;
+        margin: 10px 0 12px 0;
+    }
+
+    .print-btn:hover {
+        background: #f0f0f0;
+    }
+
+    /* PRINT‑ONLY FIXES */
+    @media print {
+
+        @page {
+            margin-bottom: 0.3in;
+        }
+
+        /* Hide print button */
+        .print-btn {
+            display: none;
+        }
+
+        /* Manual page-break class (use when needed) */
+        .page-break-after {
+            page-break-after: always;
+            break-after: page;
+        }
+
+        .last-page-footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            padding: 4pt 0;
+            text-align: center;
+            background: none;
+
+            /* Prevent Chrome/Edge from dropping the footer */
+            z-index: 9999;
+            transform: translateZ(0);
+        }
+
+        body {
+            counter-reset: page;
+            overflow: visible !important;
+        }
+    }
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<div class="svg-wrapper">
+<img src="https://res.cloudinary.com/dsaksgdqw/image/upload/v1770394764/Logo_gray_letters_nyezde.png"
+     alt="Morning Star Logo"
+     width="90"
+     height="91"
+     style="display: inline-block;">
+</div>
+
+<p style="text-align: center; margin: 0 0 5px 0; font-size: clamp(1.2rem, 5vw, 14pt); font-weight: bold; line-height: 1.0; letter-spacing: 0.03em;">
+    Morning Star Las Cruces
+</p>
+
+<p style="text-align: center; margin: 0 0 5px 0; font-size: clamp(1.2rem, 5vw, 14pt); font-weight: bold; line-height: 1.0; letter-spacing: 0.03em;">
+    2026 Discussion Questions
+</p>
+
+<button class="print-btn" onclick="window.print()">Print</button>
+
+<p style="margin: 6pt 0 0pt 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.0;">
+    November 22, 2026
+</p>
+
+<p style="margin: 0pt 0 0pt 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.0;">
+    Title: Forevermore
+</p>
+
+<p style="margin: 0 0 6pt 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.0;">
+    Primary Text: Isaiah 9:2, 6-7
+</p>
+
+<p style="margin: 6pt 0 1in 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.15;">
+    1. What is one Christmas decoration or tradition that makes it feel like Christmas to you? What makes it special?
+</p>
+
+<p style="margin: 6pt 0 1in 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.15;">
+    2. As you get older, has the way you experience or understand Christmas changed? If so, how?
+</p>
+
+<p style="margin: 6pt 0 1in 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.15;">
+    3. During the hanging of the greens service, "Forevermore," we explored the meaning behind some of the symbols and decorations we bring into the sanctuary for Advent and Christmas. Was there a particular symbol, reading, or moment that caught your attention? Why?
+</p>
+
+<p class="page-break-after" style="margin: 6pt 0 1in 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.15;">
+    4. Read Isaiah 9:2, 6-7. What words or images stand out to you in this passage? What do you notice about the kind of ruler or reign Isaiah describes? What kind of world do these verses imagine?
+</p>
+
+<p style="margin: 6pt 0 1in 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.15;">
+    5. Isaiah speaks of people walking in darkness seeing a great light. What do you think that image would have meant to the people who first heard these words? What feelings might it have stirred?
+</p>
+
+<p style="margin: 6pt 0 1in 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.15;">
+    6. We often associate Christmas with a particular season, a familiar story, and a celebration that comes and goes. What might it mean that the hope proclaimed in this passage is described as lasting forevermore?
+</p>
+
+<p style="margin: 6pt 0 1in 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.15;">
+    7. Read Jeremiah 23:5-6. Jeremiah describes a coming king who will reign with wisdom and bring justice and righteousness. How does this vision of leadership compare with the kinds of leaders and power structures we see in the world today? What might it look like for Christ's way of leading to shape our life together?
+</p>
+
+<p style="margin: 6pt 0 1in 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.15;">
+    8. Read John 1:1-5, 9-14. How does John's description of Jesus as the Word and the light help us understand the promises in Isaiah and Jeremiah? What does it mean to you that God came to dwell among us?
+</p>
+
+<p style="margin: 6pt 0 1in 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.15;">
+    9. As we move into Advent, what is one way you might carry the light, hope, and peace of Christ into the world around you this week?
+</p>
+
+<p style="margin: 6pt 0 1in 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.15;">
+    10. As we prepare to tell the Christmas story once more, what would you like your group to hold in prayer for you? Where are you longing for light, hope, or peace?
+</p>
+
+</div>
+
+<div class="last-page-footer">
+Mission and Vision of Morning Star: To point people to the grace of God found in Jesus<br>
+through inspirational worship, radical inclusion and the alleviation of suffering.
+</div>
+
+</body>
+</html>
